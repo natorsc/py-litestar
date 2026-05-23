@@ -1,0 +1,22 @@
+[project]
+name = "py-litestar"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Renato Cruz", email = "natorsc@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.18.4",
+    "litestar[standard]>=2.21.1",
+    "psycopg2-binary>=2.9.12",
+    "pydantic-settings>=2.14.1",
+    "sqlmodel>=0.0.38",
+]
+
+[project.scripts]
+server = "py_litestar.app:start"
+
+[build-system]
+requires = ["uv_build>=0.11.14,<0.12.0"]
+build-backend = "uv_build"
