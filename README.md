@@ -45,6 +45,13 @@ Ou
 uv run server
 ```
 
+### Documentação interativa
+
+- ReDoc: http://localhost:8000/schema.
+- Swagger UI: http://localhost:8000/schema/swagger.
+- Stoplight Elements: http://localhost:8000/schema/elements.
+- RapiDoc: http://localhost:8000/schema/rapidoc.
+
 ### Alembic
 
 Sempre que houver alterações na tabelas executar:
