@@ -7,8 +7,10 @@ class Settings(BaseSettings):
         env_file_encoding="utf-8",
     )
 
-    database_url: str = "sqlite:///./tasks.db"
-    debug: bool = False
+    database_url: str = "sqlite:///./db.sqlite3"
+    debug: bool = True
+    host: str = "127.0.0.1"
+    port: int = 8000
 
 
 settings = Settings()

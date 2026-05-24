@@ -19,6 +19,7 @@ Um modelo inicial pronto para uso para a criação de aplicativos web com o fram
 [![Litestar](https://img.shields.io/badge/-Litestar-blue?logo=litestar&logoColor=white)](https://github.com/litestar-org/litestar)
 [![SQLModel](https://img.shields.io/badge/-SQLModel-blue?logo=sqlmodel&logoColor=white)](https://github.com/fastapi/sqlmodel)
 [![Alembic](https://img.shields.io/badge/-Alembic-blue?logo=alembic&logoColor=white)](https://github.com/sqlalchemy/alembic)
+[![Docker](https://img.shields.io/badge/-Docker-blue?logo=docker&logoColor=white)](https://github.com/docker)
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 
 ## 👨‍💻 Autor

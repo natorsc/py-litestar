@@ -6,6 +6,7 @@ from litestar.static_files import StaticFilesConfig
 from litestar.template.config import TemplateConfig
 
 from py_litestar.controllers import TaskController, index
+from py_litestar.settings import settings
 
 cors_config = CORSConfig(allow_origins=["*"])
 
@@ -26,4 +27,9 @@ app = Litestar(
 
 
 def start() -> None:
-    uvicorn.run("py_litestar.app:app", host="127.0.0.1", port=8000, reload=True)
+    uvicorn.run(
+        "py_litestar.app:app",
+        host=settings.host,
+        port=settings.port,
+        reload=settings.debug,
+    )
